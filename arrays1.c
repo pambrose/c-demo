@@ -2,11 +2,12 @@
 #include "arrays.h"
 
 void arrays1() {
+    const int SIZE = 3;
     // Allocate an array of 3 integers
-    int a[3];
-    a[0] = 0;
-    a[1] = 10;
-    a[2] = 20;
-    for (int i = 0; i < 3; i++)
+    int a[SIZE];
+    a[0] = 10;
+    a[1] = 20;
+    a[2] = 30;
+    for (int i = 0; i < SIZE; i++)
         printf("a[%d] = %d\n", i, a[i]);
 }
