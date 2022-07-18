@@ -3,4 +3,4 @@ project(c_basics C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(c_basics main.c simple.c simple.h)
+add_executable(c_basics main.c basic_types.c basic_types.h)

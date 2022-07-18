@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include "basic_types.h"
 
 int main(int argc, char *argv[]) {
-    basic_types();
+    printf("Hello, World!\n");
     return 0;
 }
