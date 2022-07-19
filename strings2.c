@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "strings.h"
 
 void strings2() {
@@ -18,4 +19,6 @@ void strings2() {
 
     printf("vec = %s\n", vec);
     printf("str = %s\n", str);
+    printf("strlens = %ld and %ld\n",
+           strlen(vec), strlen(str));
 }
