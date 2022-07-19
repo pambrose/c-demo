@@ -14,8 +14,8 @@ void strings3() {
     *(str + 4) = 'o';
     *(str + 5) = '\0';
 
-    printf("vec = %s\n", vec);
-    printf("str = %s\n", str);
+    printf("vec = %p, str = %p\n", vec, str);
+    printf("vec = %s, str = %s\n", vec, str);
     printf("strlens = %ld and %ld\n",
            strlen(vec), strlen(str));
 }
