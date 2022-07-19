@@ -11,6 +11,7 @@ int main(int argc, char *argv[]) {
     //pointers1();
     //pointers2();
     //strings1();
-    strings2();
+    //strings2();
+    strings3();
     return 0;
 }

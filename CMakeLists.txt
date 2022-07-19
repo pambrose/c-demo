@@ -8,5 +8,5 @@ add_executable(
         basic_types.c basic_types.h
         arrays1.c arrays2.c arrays.h
         pointers1.c pointers2.c pointers.h
-        strings1.c strings2.c strings.h
+        strings1.c strings2.c strings3.c strings.h
 )

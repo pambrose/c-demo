@@ -3,22 +3,13 @@
 #include "strings.h"
 
 void strings2() {
-    char vec[20];
-    vec[0] = 'H';
-    vec[1] = 'e';
+    char *str = "Hello, World!";
 
-    *(vec + 2) = 'l';
-    *(vec + 3) = 'l';
-
-    char *str = vec;
-    *(str + 4) = 'o';
-    *(str + 5) = '\0';
+    printf("str = %p\n", str);
 
     for (int i = 0; str[i] != '\0'; i++)
-        printf("char %d = %c\n", i, vec[i]);
+        printf("char %d = %c\n", i, *(str + i));
 
-    printf("vec = %s\n", vec);
     printf("str = %s\n", str);
-    printf("strlens = %ld and %ld\n",
-           strlen(vec), strlen(str));
+    printf("strlen(str) = %ld\n", strlen(str));
 }
