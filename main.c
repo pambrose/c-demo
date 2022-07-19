@@ -9,7 +9,8 @@ int main(int argc, char *argv[]) {
     //arrays1();
     //arrays2();
     //pointers1();
-    pointers2();
-    //strings();
+    //pointers2();
+    //strings1();
+    strings2();
     return 0;
 }
