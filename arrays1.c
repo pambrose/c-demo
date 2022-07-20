@@ -4,7 +4,7 @@
 
 void arrays1() {
     const int SIZE = 3;
-    // Allocate an array of 3 integers
+    // Allocate an array of 3 integers on the stack
     int a[SIZE];
     a[0] = 10;
     a[1] = 20;

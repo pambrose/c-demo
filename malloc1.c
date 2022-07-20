@@ -4,7 +4,7 @@
 
 void malloc1() {
     const int SIZE = 4;
-    // Allocate an array of 4 integers
+    // Allocate an array of 4 integers on the heap
     int *a = malloc(SIZE * sizeof(int));
     *a = 11;
     *(a + 1) = 22;

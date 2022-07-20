@@ -2,7 +2,7 @@
 #include "funcs.h"
 
 void arrays2() {
-    // Allocate and assign an array of 3 integers
+    // Allocate and assign an array of 3 integers on the stack
     int b[3] = {100, 200, 300};
     printf("sizeof(b) = %li, sizeof(int) = %li\n",
            sizeof(b), sizeof(int));
