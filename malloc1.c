@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "arrays.h"
+#include "funcs.h"
 
 void malloc1() {
     const int SIZE = 4;

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "basic_types.h"
+#include "funcs.h"
 
 void basic_types() {
     short s = 32;

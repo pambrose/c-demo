@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "arrays.h"
+#include "funcs.h"
 
 void arrays2() {
     // Allocate and assign an array of 3 integers

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <libc.h>
-#include "arrays.h"
+#include "funcs.h"
 
 void arrays1() {
     const int SIZE = 3;

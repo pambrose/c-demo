@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "pointers.h"
+#include "funcs.h"
 
 void pointers1() {
     int i = 100;

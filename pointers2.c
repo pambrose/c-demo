@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "pointers.h"
+#include "funcs.h"
 
 void pointers2() {
     int v[] = {10, 20, 30};

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "strings.h"
+#include "funcs.h"
 
 void strings2() {
     char *str = "Hello, World!";
