@@ -3,7 +3,7 @@
 #include "strings.h"
 
 void strings3() {
-    char vec[20];
+    char vec[6];
     vec[0] = 'H';
     vec[1] = 'e';
 
