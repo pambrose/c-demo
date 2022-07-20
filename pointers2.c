@@ -2,7 +2,7 @@
 #include "pointers.h"
 
 void pointers2() {
-    int v[] = {10, 20, 30, 40, 50};
+    int v[] = {10, 20, 30};
     int *p = v;
 
     printf("v = %p, p = %p\n", v, p);
