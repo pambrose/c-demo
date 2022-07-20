@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <libc.h>
 #include "arrays.h"
 
 void arrays1() {
@@ -10,4 +11,5 @@ void arrays1() {
     a[2] = 30;
     for (int i = 0; i < SIZE; i++)
         printf("a[%d] = %d\n", i, a[i]);
+    printf("sizeof(a) = %ld\n", sizeof(a));
 }

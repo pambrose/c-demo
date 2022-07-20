@@ -5,7 +5,7 @@
 #include "strings.h"
 
 int main() {
-    basic_types();
+    //basic_types();
     //arrays1();
     //arrays2();
     //pointers1();
@@ -13,5 +13,6 @@ int main() {
     //strings1();
     //strings2();
     //strings3();
+    malloc1();
     return 0;
 }
