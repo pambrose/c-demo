@@ -11,6 +11,7 @@ add_executable(
         strings1.c strings2.c strings3.c
         malloc1.c malloc2.c
         calloc1.c
+        realloc1.c
         copy_by.c
         return_array1.c return_array2.c
         string_funcs1.c

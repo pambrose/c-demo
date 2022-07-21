@@ -31,4 +31,5 @@ void return_int_array2();
 
 void string_funcs1();
 
+void realloc1();
 #endif
