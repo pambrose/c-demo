@@ -12,4 +12,5 @@ add_executable(
         malloc1.c malloc2.c
         calloc1.c
         copy_by.c
+        return_array1.c return_array2.c
 )

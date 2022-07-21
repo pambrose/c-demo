@@ -13,6 +13,8 @@ int main() {
 //    malloc1();
 //    malloc2();
 //    calloc1();
-    copy_by();
+//    copy_by();
+    return_int_array1();
+    return_int_array2();
     return 0;
 }

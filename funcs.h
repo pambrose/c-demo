@@ -25,4 +25,9 @@ void calloc1();
 
 void copy_by();
 
+void return_int_array1();
+
+void return_int_array2();
+
+
 #endif
