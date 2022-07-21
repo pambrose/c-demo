@@ -19,4 +19,8 @@ void string_funcs1() {
     char *str4 = malloc(40 * sizeof(char));
     sprintf(str4, "The sprintf string is: %s", str3);
     printf("str4 = %s\n", str4);
+
+    free(str2);
+    free(str3);
+    free(str4);
 }
