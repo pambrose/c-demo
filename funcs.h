@@ -11,6 +11,8 @@ void malloc1();
 
 void malloc2();
 
+void calloc1();
+
 void strings1();
 
 void strings2();

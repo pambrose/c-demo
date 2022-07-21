@@ -2,7 +2,7 @@
 #include "funcs.h"
 
 int main() {
-    basic_types();
+//    basic_types();
 //    arrays1();
 //    arrays2();
 //    pointers1();
@@ -12,5 +12,6 @@ int main() {
 //    strings3();
 //    malloc1();
 //    malloc2();
+    calloc1();
     return 0;
 }

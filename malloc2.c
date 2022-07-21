@@ -4,7 +4,7 @@
 
 void malloc2() {
     const int SIZE = 5;
-    // Allocate an array of 4 chars on the heap
+    // Allocate an array of chars on the heap
     char *a = malloc(SIZE * sizeof(char));
     *a = 'w';
     *(a + 1) = 'x';
@@ -12,4 +12,6 @@ void malloc2() {
     char *b = a + 3;
     *b = 'z';
     printf("a = %s\n", a);
+    // Free memory allocated on the heap
+    free(a);
 }
