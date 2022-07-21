@@ -4,7 +4,7 @@
 
 void malloc2() {
     const int SIZE = 5;
-    // Allocate an array of chars on the heap
+    // Allocate an array on the heap
     char *a = malloc(SIZE * sizeof(char));
     *a = 'w';
     *(a + 1) = 'x';
