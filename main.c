@@ -14,7 +14,8 @@ int main() {
 //    malloc2();
 //    calloc1();
 //    copy_by();
-    return_int_array1();
-    return_int_array2();
+//    return_int_array1();
+//    return_int_array2();
+    string_funcs1();
     return 0;
 }

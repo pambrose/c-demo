@@ -13,4 +13,5 @@ add_executable(
         calloc1.c
         copy_by.c
         return_array1.c return_array2.c
+        string_funcs1.c
 )

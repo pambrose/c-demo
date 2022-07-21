@@ -29,5 +29,6 @@ void return_int_array1();
 
 void return_int_array2();
 
+void string_funcs1();
 
 #endif
