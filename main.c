@@ -12,6 +12,7 @@ int main() {
 //    strings3();
 //    malloc1();
 //    malloc2();
-    calloc1();
+//    calloc1();
+    copy_by();
     return 0;
 }

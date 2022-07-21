@@ -23,5 +23,6 @@ void malloc2();
 
 void calloc1();
 
+void copy_by();
 
 #endif

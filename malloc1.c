@@ -13,7 +13,7 @@ void malloc1() {
     *b = 44;
     for (int i = 0; i < SIZE; i++)
         printf("a[%d] = %d\n", i, a[i]);
-    printf("incorrect sizeof(a) = %ld\n", sizeof(a))
+    printf("incorrect sizeof(a) = %ld\n", sizeof(a));
     // Free memory allocated on the heap
     free(a);
 }
