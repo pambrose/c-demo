@@ -15,4 +15,5 @@ add_executable(
         copy_by.c
         return_array1.c return_array2.c
         string_funcs1.c
+        cli_args.c
 )

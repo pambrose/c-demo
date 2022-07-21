@@ -32,4 +32,7 @@ void return_int_array2();
 void string_funcs1();
 
 void realloc1();
+
+void cli_args(int argc, char **argv);
+
 #endif
