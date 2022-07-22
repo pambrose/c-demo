@@ -2,7 +2,6 @@
 #include <string.h>
 #include "funcs.h"
 
-//  ./cmake-build-debug/c_basics a bb ccc
 void cli_args(int argc, char **argv) {
     printf("The CLI args using []:\n");
     for (int i = 0; i < argc; i++) {
