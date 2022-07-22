@@ -8,10 +8,10 @@ int main(int argc, char *argv[]) {
 //    pointers1();
 //    pointers2();
 //    strings1();
-//    strings2();
+    strings2();
 //    strings3();
 //    malloc1();
-    malloc2();
+    //malloc2();
 //    calloc1();
 //    realloc1();
 //    copy_by();
