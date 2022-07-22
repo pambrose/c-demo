@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 //    strings2();
 //    strings3();
 //    malloc1();
-//    malloc2();
+    malloc2();
 //    calloc1();
 //    realloc1();
 //    copy_by();
@@ -19,6 +19,6 @@ int main(int argc, char *argv[]) {
 //    return_int_array2();
 //    string_funcs1();
     // cli_args1(argc, argv);
-    cli_args2();
+    //cli_args2();
     return 0;
 }
