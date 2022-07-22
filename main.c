@@ -18,6 +18,7 @@ int main(int argc, char *argv[]) {
 //    return_int_array1();
 //    return_int_array2();
 //    string_funcs1();
-    cli_args(argc, argv);
+    // cli_args1(argc, argv);
+    cli_args2();
     return 0;
 }

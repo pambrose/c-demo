@@ -33,6 +33,8 @@ void string_funcs1();
 
 void realloc1();
 
-void cli_args(int argc, char **argv);
+void cli_args1(int argc, char **argv);
+
+void cli_args2();
 
 #endif
