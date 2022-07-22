@@ -15,6 +15,7 @@ void cli_args2() {
     for (int i = 0; i < argc; i++) {
         size_t len = strlen(argv[i]);
         printf("Arg %d at %p => %p \"%s\" (len=%lu next loc: %p)\n",
-               i, &argv[i], argv[i], argv[i], len, argv[i] + len + 1);
+               i, &argv[i], argv[i], argv[i], len,
+               argv[i] + len + 1);
     }
 }
