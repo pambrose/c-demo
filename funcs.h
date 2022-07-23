@@ -37,4 +37,10 @@ void cli_args1(int argc, char **argv);
 
 void cli_args2();
 
+void structs1();
+
+void structs2();
+
+void structs3();
+
 #endif
