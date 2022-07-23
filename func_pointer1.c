@@ -3,8 +3,7 @@
 #include "funcs.h"
 
 int double_it(int x) {
-    int a2 = x * 2;
-    return a2;
+    return x * 2;
 }
 
 void func_pointer1() {
