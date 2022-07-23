@@ -43,4 +43,6 @@ void structs2();
 
 void structs3();
 
+void func_pointer1();
+
 #endif

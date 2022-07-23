@@ -22,6 +22,7 @@ int main(int argc, char *argv[]) {
 //    cli_args2();
 //    structs1();
 //    structs2();
-    structs3();
+//    structs3();
+    func_pointer1();
     return 0;
 }

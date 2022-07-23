@@ -17,4 +17,5 @@ add_executable(
         string_funcs1.c
         cli_args1.c cli_args2.c
         structs1.c structs2.c structs3.c
+        func_pointer1.c
 )
