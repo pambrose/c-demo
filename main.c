@@ -6,7 +6,7 @@ int main(int argc, char *argv[]) {
 //    arrays1();
 //    arrays2();
 //    pointers1();
-//    pointers2();
+    pointers2();
 //    strings1();
 //    strings2();
 //    strings3();
@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 //    copy_by();
 //    return_int_array1();
 //    return_int_array2();
-    return_int_array3();
+//    return_int_array3();
 //    string_funcs1();
 //    cli_args1(argc, argv);
 //    cli_args2();
