@@ -13,7 +13,7 @@ add_executable(
         calloc1.c
         realloc1.c
         copy_by.c
-        return_array1.c return_array2.c
+        return_array1.c return_array2.c return_array3.c
         string_funcs1.c
         cli_args1.c cli_args2.c
         structs1.c structs2.c structs3.c

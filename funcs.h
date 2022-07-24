@@ -29,6 +29,8 @@ void return_int_array1();
 
 void return_int_array2();
 
+void return_int_array3();
+
 void string_funcs1();
 
 void realloc1();

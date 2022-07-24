@@ -17,14 +17,15 @@ int main(int argc, char *argv[]) {
 //    copy_by();
 //    return_int_array1();
 //    return_int_array2();
+    return_int_array3();
 //    string_funcs1();
 //    cli_args1(argc, argv);
 //    cli_args2();
 //    structs1();
 //    structs2();
 //    structs3();
-    func_pointer1();
-    func_pointer2();
-    func_pointer3();
+//    func_pointer1();
+//    func_pointer2();
+//    func_pointer3();
     return 0;
 }
