@@ -20,9 +20,9 @@ int main(int argc, char *argv[]) {
 //    copy_by();
     // free1();
     // free2();
-//    return_array1();
+    return_array1();
 //    return_array2();
-    return_array3();
+//    return_array3();
 //    string_funcs1();
 //    cli_args1(argc, argv);
 //    cli_args2();
