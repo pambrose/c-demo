@@ -4,16 +4,18 @@
 
 void malloc1() {
     const int SIZE = 4;
-    // Allocate an array on the heap
+    // Allocate memory on the heap
     int *a = malloc(SIZE * sizeof(int));
     *a = 11;
     *(a + 1) = 22;
     a[2] = 33;
+
     int *b = a + 3;
     *b = 44;
+
     for (int i = 0; i < SIZE; i++)
         printf("a[%d] = %d\n", i, a[i]);
-    printf("incorrect sizeof(a) = %ld\n", sizeof(a));
-    // Free memory allocated on the heap
-    free(a);
+    printf("Unexpected sizeof(a) = %ld\n", sizeof(a));
+
+    free(a); // Free memory allocated on the heap
 }

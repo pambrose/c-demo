@@ -4,9 +4,8 @@
 void pointers1() {
     int i = 100;
     int *p = &i;
-    int **q = &p;
-    printf("i = %d, p = %p, q = %p\n", i, p, q);
-    printf("*p = %d **q = %d\n", *p, **q);
+    printf("&i = %p, p = %p\n", &i, p);
+    printf("i = %d, *p = %d\n", i, *p);
     i++;
     printf("i = %d, *p = %d\n", i, *p);
     (*p)++;

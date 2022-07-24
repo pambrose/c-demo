@@ -21,6 +21,8 @@ void pointers1();
 
 void pointers2();
 
+void pointers3();
+
 void malloc1();
 
 void malloc2();
@@ -29,11 +31,15 @@ void calloc1();
 
 void copy_by();
 
-void return_int_array1();
+void free1();
 
-void return_int_array2();
+void free2();
 
-void return_int_array3();
+void return_array1();
+
+void return_array2();
+
+void return_array3();
 
 void string_funcs1();
 

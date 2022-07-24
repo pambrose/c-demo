@@ -7,8 +7,8 @@ void strings5() {
     strcpy(vec, "AbBbCc");
     printf("vec = %s\n", vec);
 
-    // Try this with a length of 7
-    for (int i = 0; i < 6; i++)
+    for (int i = 0; i < 6; i++)  // Try with <= 6
         printf("char %d = %c\n", i, (vec[i])++);
+
     printf("vec = %s\n", vec);
 }

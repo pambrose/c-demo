@@ -9,7 +9,7 @@ int *make_array2(int a) {
     return int_vec;
 }
 
-void return_int_array2() {
+void return_array2() {
     int *vec = make_array2(5);
     for (int i = 0; i < 5; i++)
         printf("vec[%d] = %d\n", i, vec[i]);

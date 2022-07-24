@@ -4,13 +4,14 @@
 
 void strings4() {
     char vec[6];
+    char *str = vec;
+
     vec[0] = 'H';
     vec[1] = 'e';
 
     *(vec + 2) = 'l';
     *(vec + 3) = 'l';
 
-    char *str = vec;
     *(str + 4) = 'o';
     *(str + 5) = '\0';
 
