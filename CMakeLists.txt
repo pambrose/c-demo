@@ -8,7 +8,7 @@ add_executable(
         basic_types.c
         arrays1.c arrays2.c
         pointers1.c pointers2.c
-        strings1.c strings2.c strings3.c
+        strings1.c strings2.c strings3.c strings4.c strings5.c
         malloc1.c malloc2.c
         calloc1.c
         realloc1.c

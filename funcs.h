@@ -13,6 +13,10 @@ void strings2();
 
 void strings3();
 
+void strings4();
+
+void strings5();
+
 void pointers1();
 
 void pointers2();

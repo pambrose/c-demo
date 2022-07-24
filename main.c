@@ -6,10 +6,12 @@ int main(int argc, char *argv[]) {
 //    arrays1();
 //    arrays2();
 //    pointers1();
-    pointers2();
+//    pointers2();
 //    strings1();
 //    strings2();
-//    strings3();
+    strings3();
+    //  strings4();
+    //  strings5();
 //    malloc1();
 //    malloc2();
 //    calloc1();
