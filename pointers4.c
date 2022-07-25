@@ -6,6 +6,7 @@ void pointers4() {
     int *p = v;
 
     printf("sizeof(v) = %ld\n", sizeof(v));
+    printf("sizeof(*v) = %ld\n", sizeof(*v));
     printf("sizeof(int) = %ld\n", sizeof(int));
     printf("sizeof(p) = %ld\n", sizeof(p));   // differs from v
     printf("sizeof(*p) = %ld\n", sizeof(*p));

@@ -7,8 +7,8 @@ int main(int argc, char *argv[]) {
 //    arrays2();
 //    pointers1();
 //    pointers2();
-    pointers3();
-    pointers4();
+//    pointers3();
+//    pointers4();
 //    strings1();
 //    strings2();
 //    strings3();
@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
 //    malloc2();
 //    calloc1();
 //    realloc1();
-//    copy_by();
+//    call_by();
 //    free1();
 //    free2();
 //    return_array1();
@@ -27,6 +27,7 @@ int main(int argc, char *argv[]) {
 //    string_funcs1();
 //    cli_args1(argc, argv);
 //    cli_args2();
+// arrays3();
 //    structs1();
 //    structs2();
 //    structs3();

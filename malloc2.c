@@ -14,8 +14,8 @@ void malloc2() {
     *b = 'z';
     b[1] = '\0';
 
-    printf("a = %s a+2 = %s\n", a, a + 2);
-    printf("b = %s b-3 = %s\n", b, b - 3);
+    printf("a = %s, a+2 = %s\n", a, a + 2);
+    printf("b = %s, b-3 = %s\n", b, b - 3);
 
     free(a); // Free memory allocated on the heap
 }
