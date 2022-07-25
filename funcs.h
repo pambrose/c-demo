@@ -23,6 +23,8 @@ void pointers2();
 
 void pointers3();
 
+void pointers4();
+
 void malloc1();
 
 void malloc2();

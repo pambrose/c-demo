@@ -7,7 +7,8 @@ int main(int argc, char *argv[]) {
 //    arrays2();
 //    pointers1();
 //    pointers2();
-//    pointers3();
+    pointers3();
+    pointers4();
 //    strings1();
 //    strings2();
 //    strings3();
@@ -18,9 +19,9 @@ int main(int argc, char *argv[]) {
 //    calloc1();
 //    realloc1();
 //    copy_by();
-    // free1();
-    // free2();
-    return_array1();
+//    free1();
+//    free2();
+//    return_array1();
 //    return_array2();
 //    return_array3();
 //    string_funcs1();
