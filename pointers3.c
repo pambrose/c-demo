@@ -12,7 +12,7 @@ void pointers3() {
     printf("v[1] = %d, *(v + 1) = %d, *(p + 1) = %d\n",
            v[1], *(v + 1), *(p + 1));
 
-    for (int i = 2; i < sizeof(v) / sizeof(int); i++)
+    for (int i = 2; i < 3; i++)
         printf("v[%d] = %d, *(v + %d) = %d, *(p + %d) = %d\n",
                i, v[i], i, *(v + i), i, *(p + i));
 }

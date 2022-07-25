@@ -9,4 +9,8 @@ void pointers4() {
     printf("sizeof(int) = %ld\n", sizeof(int));
     printf("sizeof(p) = %ld\n", sizeof(p));   // differs from v
     printf("sizeof(*p) = %ld\n", sizeof(*p));
+
+    for (int i = 0; i < sizeof(v) / sizeof(int); i++)
+        printf("v[%d] = %d, *(v + %d) = %d, *(p + %d) = %d\n",
+               i, v[i], i, *(v + i), i, *(p + i));
 }
