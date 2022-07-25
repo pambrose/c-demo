@@ -3,16 +3,11 @@
 #include "funcs.h"
 
 typedef int (*func_ptr)(int);
-
 typedef func_ptr (*hof_ptr)();
 
-int quad_it(int x) {
-    return x * 4;
-}
+int quad_it(int x) { return x * 4; }
 
-func_ptr hof_retval() {
-    return quad_it;
-}
+func_ptr hof_retval() { return quad_it; }
 
 void func_pointer3() {
     func_ptr g = hof_retval();

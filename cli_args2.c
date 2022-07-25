@@ -10,7 +10,7 @@ void cli_args2() {
     argv[2] = "bb";
     argv[3] = "ccc";
 
-    // Declare and assign syntax:
+    // Declare and assign syntax
     char *argv2[] = {"./cmake-build-debug/c_basics", "a", "bb", "ccc", NULL};
 
     for (int i = 0; i < argc; i++) {
