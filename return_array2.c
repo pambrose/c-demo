@@ -4,8 +4,10 @@
 
 int *make_array2(int a) {
     int *int_vec = malloc(a * sizeof(int));
-    for (int i = 0; i < a; i++)
+    for (int i = 0; i < a; i++) {
         int_vec[i] = i * 10;
+        printf("int_vec[%d] = %d\n", i, int_vec[i]);
+    }
     return int_vec;
 }
 
