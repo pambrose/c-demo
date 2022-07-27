@@ -8,9 +8,7 @@ typedef struct MyObj_struct MyObj;
 struct MyObj_struct {
     int int_value;
     char *str_value;
-
     int (*mult)(MyObj *, int);
-
     char *(*repeat)(MyObj *, int);
 };
 
