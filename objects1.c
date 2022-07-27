@@ -10,11 +10,13 @@ struct MyObj {
     char *(*repeat)(struct MyObj *, int);
 };
 
-int mult_impl(struct MyObj *this, int val) { return this->int_value * val; }
+int mult_impl(struct MyObj *this, int val) {
+    return this->int_value * val;
+}
 
 char *repeat_impl(struct MyObj *this, int copies) {
-    size_t len = strlen(this->str_value);
-    char *str = malloc(sizeof(char) * copies * len + 1);
+    unsigned int len = strlen(this->str_value);
+    char *str = malloc((copies * len * sizeof(char)) + 1);
     for (int i = 0; i < copies; i++)
         strcat((str + i), this->str_value);
     str[copies * len] = '\0';
@@ -32,6 +34,6 @@ struct MyObj *MyObj(int int_val, char *str_val) {
 
 void objects1() {
     struct MyObj *obj = MyObj(5, "Hello");
-    printf("obj->mult() call result1 = %d\n", obj->mult(obj, 5));
+    printf("obj->mult() result = %d\n", obj->mult(obj, 5));
     printf("obj->repeat() result = %s\n", obj->repeat(obj, 3));
 }
