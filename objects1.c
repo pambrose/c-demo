@@ -3,18 +3,22 @@
 #include <stdlib.h>
 #include "funcs.h"
 
-struct MyObj {
+typedef struct MyObj_struct MyObj;
+
+struct MyObj_struct {
     int int_value;
     char *str_value;
-    int (*mult)(struct MyObj *, int);
-    char *(*repeat)(struct MyObj *, int);
+
+    int (*mult)(MyObj *, int);
+
+    char *(*repeat)(MyObj *, int);
 };
 
-int mult_impl(struct MyObj *this, int val) {
+int mult_impl(MyObj *this, int val) {
     return this->int_value * val;
 }
 
-char *repeat_impl(struct MyObj *this, int copies) {
+char *repeat_impl(MyObj *this, int copies) {
     unsigned int len = strlen(this->str_value);
     char *str = malloc((copies * len * sizeof(char)) + 1);
     for (int i = 0; i < copies; i++)
@@ -23,8 +27,8 @@ char *repeat_impl(struct MyObj *this, int copies) {
     return str;
 }
 
-struct MyObj *MyObj(int int_val, char *str_val) {
-    struct MyObj *obj = malloc(sizeof(struct MyObj));
+MyObj *new_MyObj(int int_val, char *str_val) {
+    MyObj *obj = malloc(sizeof(MyObj));
     obj->int_value = int_val;
     obj->str_value = str_val;
     obj->mult = mult_impl;
@@ -33,11 +37,11 @@ struct MyObj *MyObj(int int_val, char *str_val) {
 }
 
 void objects1() {
-    struct MyObj *obj1 = MyObj(5, "Hello");
+    MyObj *obj1 = new_MyObj(5, "Hello");
     printf("obj1->mult() result = %d\n", obj1->mult(obj1, 5));
     printf("obj1->repeat() result = %s\n", obj1->repeat(obj1, 3));
 
-    struct MyObj *obj2 = MyObj(7, "World");
+    MyObj *obj2 = new_MyObj(7, "World");
     printf("obj2->mult() result = %d\n", obj2->mult(obj2, 4));
     printf("obj2->repeat() result = %s\n", obj2->repeat(obj2, 2));
 
