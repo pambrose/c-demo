@@ -65,4 +65,6 @@ void func_pointer2();
 
 void func_pointer3();
 
+void objects1();
+
 #endif

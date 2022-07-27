@@ -33,6 +33,7 @@ int main(int argc, char *argv[]) {
 //    structs3();
 //   func_pointer1();
 //    func_pointer2();
-    func_pointer3();
+//    func_pointer3();
+    objects1();
     return 0;
 }
