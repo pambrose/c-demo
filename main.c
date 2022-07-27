@@ -31,8 +31,8 @@ int main(int argc, char *argv[]) {
 //    structs1();
 //    structs2();
 //    structs3();
-//    func_pointer1();
+//   func_pointer1();
 //    func_pointer2();
-//    func_pointer3();
+    func_pointer3();
     return 0;
 }
