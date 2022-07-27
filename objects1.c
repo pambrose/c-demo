@@ -6,9 +6,7 @@
 struct MyObj {
     int int_value;
     char *str_value;
-
     int (*mult)(struct MyObj *, int);
-
     char *(*repeat)(struct MyObj *, int);
 };
 
