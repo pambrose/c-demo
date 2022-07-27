@@ -33,7 +33,14 @@ struct MyObj *MyObj(int int_val, char *str_val) {
 }
 
 void objects1() {
-    struct MyObj *obj = MyObj(5, "Hello");
-    printf("obj->mult() result = %d\n", obj->mult(obj, 5));
-    printf("obj->repeat() result = %s\n", obj->repeat(obj, 3));
+    struct MyObj *obj1 = MyObj(5, "Hello");
+    printf("obj1->mult() result = %d\n", obj1->mult(obj1, 5));
+    printf("obj1->repeat() result = %s\n", obj1->repeat(obj1, 3));
+
+    struct MyObj *obj2 = MyObj(7, "World");
+    printf("obj2->mult() result = %d\n", obj2->mult(obj2, 4));
+    printf("obj2->repeat() result = %s\n", obj2->repeat(obj2, 2));
+
+    free(obj1);
+    free(obj2);
 }
