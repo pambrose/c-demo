@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #include "funcs.h"
 
 int triple_it(int x) {

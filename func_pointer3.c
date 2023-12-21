@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #include "funcs.h"
 
 typedef int (*func_ptr)(int);

@@ -8,7 +8,7 @@ void strings5() {
     printf("vec = %s\n", vec);
 
     for (int i = 0; i < 6; i++)  // Try with <= 6
-        printf("char %d = %c\n", i, (vec[i])++);
+        printf("char %d = %c\n", i, vec[i]++);
 
     printf("vec = %s\n", vec);
 }
